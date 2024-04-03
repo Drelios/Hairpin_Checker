@@ -114,7 +114,7 @@ threshold=5                             #Number of consecutives paired bases
 gap_authorized=2                        #Number of non-paired bases between 2 paires bases
 
 type=str(input("Is your sequence DNA or RNA?: ")).upper()
-sequence=str(input("Enter yout sequence: ")).upper()
+sequence=str(input("Enter your sequence: ")).upper()
 
 
 if type == 'DNA':
